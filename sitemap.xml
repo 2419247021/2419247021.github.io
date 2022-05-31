@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xmcug.top/2022/05/24/java/</loc>
+    
+    <lastmod>2022-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xmcug.top/about/index.html</loc>
+    
+    <lastmod>2022-05-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xmcug.top/2022/05/24/test/</loc>
     
     <lastmod>2022-05-31</lastmod>
     
@@ -29,15 +47,6 @@
   </url>
   
   <url>
-    <loc>http://www.xmcug.top/2022/05/24/test/</loc>
-    
-    <lastmod>2022-05-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.xmcug.top/2022/05/24/hello-world/</loc>
     
     <lastmod>2022-05-24</lastmod>
@@ -54,6 +63,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://www.xmcug.top/tags/Java/</loc>
+    <lastmod>2022-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
