@@ -16,23 +16,30 @@
   <meta name="author" content="其实我还好">
   <meta name="keywords" content="">
   
-    <meta name="description" content="拓扑排序（可判断是否有环）定义： ​	把一个 有向无环图 转成 线性的排序 就叫 拓扑排序 大致思路： ​	对 DAG （有向无环图）的顶点进行排序，使得对每一条有向边 (u, v)，均有 u（在排序记录中）比 v 先出现。亦可理解为对某点 v而言，只有当 v 的所有源点均出现了，v 才能出现。 ​	如果是有环图的话，最后会只剩下环，没有入度为零的节点。 数据结构构造有向图，描述依赖关系 方法BF">
+    <meta name="description" content="Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！  记一次极不愉快的一次经历  首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！出现错误1：由于没有公钥，无法验证下列签名 :NO_PUBKEY 无法安全地用该源进行更新，所以默认禁用该源  注意网上可能会有这样的解决方法：  但是最好不要这样，我就因为这样以为解决了，结果在安装sudo apt install">
 <meta property="og:type" content="article">
-<meta property="og:title" content="判断图是否有环">
-<meta property="og:url" content="http://www.xmcug.top/2022/05/31/%E5%88%A4%E6%96%AD%E5%9B%BE%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/index.html">
+<meta property="og:title" content="Ubuntu换源方法以及常见问题解决">
+<meta property="og:url" content="http://www.xmcug.top/2022/06/02/Ubunt%E6%8D%A2%E6%BA%90%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/index.html">
 <meta property="og:site_name" content="Bear的后端成长历程">
-<meta property="og:description" content="拓扑排序（可判断是否有环）定义： ​	把一个 有向无环图 转成 线性的排序 就叫 拓扑排序 大致思路： ​	对 DAG （有向无环图）的顶点进行排序，使得对每一条有向边 (u, v)，均有 u（在排序记录中）比 v 先出现。亦可理解为对某点 v而言，只有当 v 的所有源点均出现了，v 才能出现。 ​	如果是有环图的话，最后会只剩下环，没有入度为零的节点。 数据结构构造有向图，描述依赖关系 方法BF">
+<meta property="og:description" content="Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！  记一次极不愉快的一次经历  首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！出现错误1：由于没有公钥，无法验证下列签名 :NO_PUBKEY 无法安全地用该源进行更新，所以默认禁用该源  注意网上可能会有这样的解决方法：  但是最好不要这样，我就因为这样以为解决了，结果在安装sudo apt install">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-31T13:37:56.000Z">
-<meta property="article:modified_time" content="2022-05-31T13:46:40.552Z">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021857998.png">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021859797.png">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021919758.png">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021918312.png">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021917506.png">
+<meta property="og:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021926331.png">
+<meta property="article:published_time" content="2022-06-02T11:35:41.000Z">
+<meta property="article:modified_time" content="2022-06-02T11:37:05.337Z">
 <meta property="article:author" content="其实我还好">
-<meta property="article:tag" content="图论">
-<meta property="article:tag" content="拓扑排序">
+<meta property="article:tag" content="Ubuntu">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021857998.png">
   
   
   
-  <title>判断图是否有环 - Bear的后端成长历程</title>
+  <title>Ubuntu换源方法以及常见问题解决 - Bear的后端成长历程</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -196,7 +203,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="判断图是否有环"></span>
+            <span id="subtitle" data-typed-text="Ubuntu换源方法以及常见问题解决"></span>
           
         </div>
 
@@ -207,8 +214,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-31 21:37" pubdate>
-          2022年5月31日 晚上
+        <time datetime="2022-06-02 19:35" pubdate>
+          2022年6月2日 晚上
         </time>
       </span>
     
@@ -219,7 +226,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1k 字
+          2.4k 字
         
       </span>
     
@@ -230,7 +237,7 @@
         
         
         
-          9 分钟
+          20 分钟
         
       </span>
     
@@ -268,57 +275,62 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">判断图是否有环</h1>
+            <h1 style="display: none">Ubuntu换源方法以及常见问题解决</h1>
             
             <div class="markdown-body">
               
-              <h1 id="拓扑排序（可判断是否有环）"><a href="#拓扑排序（可判断是否有环）" class="headerlink" title="拓扑排序（可判断是否有环）"></a>拓扑排序（可判断是否有环）</h1><p>定义：</p>
-<p>​	把一个 有向无环图 转成 线性的排序 就叫 <strong>拓扑排序</strong></p>
-<p>大致思路：</p>
-<p>​	对 DAG （有向无环图）的顶点进行排序，使得对每一条有向边 (u, v)，均有 u（在排序记录中）比 v 先出现。亦可理解为对某点 v而言，只有当 v 的所有源点均出现了，v 才能出现。</p>
-<p>​	如果是有环图的话，最后会只剩下环，没有入度为零的节点。</p>
-<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><p><strong>构造有向图，描述依赖关系</strong></p>
-<h2 id="方法BFS"><a href="#方法BFS" class="headerlink" title="方法BFS"></a>方法<strong>BFS</strong></h2><p>算法流程：</p>
-<ol>
-<li>统计课程安排图中每个节点的入度，生成 入度表 indegrees。</li>
-<li>借助一个队列 queue，将所有入度为 0 的节点入队。</li>
-<li>当 queue 非空时，依次将队首节点出队，在课程安排图中删除此节点 pre：</li>
-<li>并不是真正从邻接表中删除此节点 pre，而是将此节点对应所有邻接节点 cur 的入度 -1−1，即 indegrees[cur] -&#x3D; 1。</li>
-<li>当入度 -1−1后邻接节点 cur 的入度为 00，说明 cur 所有的前驱节点已经被 “删除”，此时将 cur 入队。</li>
-<li>在每次 pre 出队时，执行 numCourses–；</li>
-<li>若整个课程安排图是有向无环图（即可以安排），则所有节点一定都入队并出队过，即完成拓扑排序。换个角度说，若课程安排图中存在环，一定有节点的入度始终不为 00。</li>
-<li>因此，拓扑排序出队次数等于课程个数，返回 numCourses &#x3D;&#x3D; 0 判断课程是否可以成功安排。</li>
-</ol>
-<h1 id="使用DFS判断是否有环"><a href="#使用DFS判断是否有环" class="headerlink" title="使用DFS判断是否有环"></a>使用DFS判断是否有环</h1><p>算法流程：</p>
-<ol>
-<li><p>借助一个标志列表 flags，用于判断每个节点 i （课程）的状态：</p>
-<ol>
-<li>未被 DFS 访问：i &#x3D;&#x3D; 0；</li>
-<li>已被其他节点启动的 DFS 访问：i &#x3D;&#x3D; -1；</li>
-<li>已被当前节点启动的 DFS 访问：i &#x3D;&#x3D; 1。</li>
-</ol>
-</li>
-<li><p>对 numCourses 个节点依次执行 DFS，判断每个节点起步 DFS 是否存在环，若存在环直接返回 FalseFalse。DFS 流程；</p>
-<ol>
-<li><p>终止条件：</p>
-<ul>
-<li><p>当 flag[i] &#x3D;&#x3D; -1，说明当前访问节点已被其他节点启动的 DFS 访问，无需再重复搜索，直接返回 TrueTrue。</p>
-</li>
-<li><p>当 flag[i] &#x3D;&#x3D; 1，说明在本轮 DFS 搜索中节点 i 被第 22 次访问，即 课程安排图有环 ，直接返回 FalseFalse。</p>
-</li>
-</ul>
-</li>
-<li><p>将当前访问节点 i 对应 flag[i] 置 11，即标记其被本轮 DFS 访问过；</p>
-</li>
-<li><p>递归访问当前节点 i 的所有邻接节点 j，当发现环直接返回 FalseFalse；</p>
-</li>
-<li><p>当前节点所有邻接节点已被遍历，并没有发现环，则将当前节点 flag 置为 -1−1 并返回 TrueTrue。</p>
-</li>
-</ol>
-</li>
-<li><p>若整个图 DFS 结束并未发现环，返回 TrueTrue。</p>
-</li>
-</ol>
+              <h1 id="Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！"><a href="#Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！" class="headerlink" title="Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！"></a>Ubuntu换源详解，教你如何换源，并且解决常见的大坑！！！！</h1><blockquote>
+<p> 记一次极不愉快的一次经历</p>
+</blockquote>
+<h2 id="首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！"><a href="#首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！" class="headerlink" title="首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！"></a><strong>首先注意，换源必须选择合适的版本，不可以在网上找一个下载源就直接去换！！！</strong></h2><h3 id="出现错误1："><a href="#出现错误1：" class="headerlink" title="出现错误1："></a>出现错误1：</h3><p>由于没有公钥，无法验证下列签名 :NO_PUBKEY</p>
+<p>无法安全地用该源进行更新，所以默认禁用该源</p>
+<p><img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021857998.png" srcset="/img/loading.gif" lazyload alt="image-20220602185733928"></p>
+<p>注意网上可能会有这样的解决方法：</p>
+<p><img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021859797.png" srcset="/img/loading.gif" lazyload alt="image-20220602185926759"></p>
+<p><strong>但是最好不要这样</strong>，我就因为这样以为解决了，结果在安装<code>sudo apt install openssh-server</code>的过程中出现了</p>
+<h3 id="出现错误2："><a href="#出现错误2：" class="headerlink" title="出现错误2："></a>出现错误2：</h3><p>错误1：E:软件包 openssh-server 还没有可供安装的候选者，错误2：E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系</p>
+<p>这就代表着你目前使用的源和你目前使用的Ubuntu不一致，你需要选择正确的源。</p>
+<p>E: 错误，pkgProblemResolver::Resolve 发生故障，这可能是有软件包被要求保持现状的缘故</p>
+<p><img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021919758.png" srcset="/img/loading.gif" lazyload alt="image-20220602191951729"></p>
+<p><img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021918312.png" srcset="/img/loading.gif" lazyload alt="image-20220602191843283"></p>
+<h2 id="那么我下面将介绍如何选择正确的源去解决上述问题，并且怎么去更新源，最后列出一些常用的源，供大家选择"><a href="#那么我下面将介绍如何选择正确的源去解决上述问题，并且怎么去更新源，最后列出一些常用的源，供大家选择" class="headerlink" title="那么我下面将介绍如何选择正确的源去解决上述问题，并且怎么去更新源，最后列出一些常用的源，供大家选择"></a><strong>那么我下面将介绍如何选择正确的源去解决上述问题，并且怎么去更新源，最后列出一些常用的源，供大家选择</strong></h2><h3 id="选择源"><a href="#选择源" class="headerlink" title="选择源"></a>选择源</h3><p>​	首先大家查看自己的Ubuntu版本</p>
+<table>
+<thead>
+<tr>
+<th>系统名</th>
+<th>版本名</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ubuntu22.04</td>
+<td>jammy</td>
+</tr>
+<tr>
+<td>ubuntu20.04</td>
+<td>focal</td>
+</tr>
+<tr>
+<td>ubuntu18.04</td>
+<td>bionic</td>
+</tr>
+<tr>
+<td>ubuntu16.04</td>
+<td>xenial</td>
+</tr>
+<tr>
+<td>ubuntu14.04</td>
+<td>trusty</td>
+</tr>
+</tbody></table>
+<p>也可以使用<code>lsb_release -c</code>查看</p>
+<p><img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021917506.png" srcset="/img/loading.gif" lazyload alt="image-20220602191716479"></p>
+<p>保证版本和自己的是一样的，比如下面就是20.04的版本<img src="https://cugdemo.oss-cn-hangzhou.aliyuncs.com/202206021926331.png" srcset="/img/loading.gif" lazyload alt="image-20220602192632296"></p>
+<h3 id="ubuntu-18-04-bionic-配置如下"><a href="#ubuntu-18-04-bionic-配置如下" class="headerlink" title="ubuntu 18.04(bionic) 配置如下"></a>ubuntu 18.04(bionic) 配置如下</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs awk">deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic main restricted universe multiverse<br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-security main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-security main restricted universe multiverse<br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-updates main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-updates main restricted universe multiverse<br><br><span class="hljs-comment"># deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><span class="hljs-comment"># deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span><br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-backports main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> bionic-backports main restricted universe multiverse<br></code></pre></td></tr></table></figure>
+
+<h3 id="ubuntu-20-04-focal-配置如下"><a href="#ubuntu-20-04-focal-配置如下" class="headerlink" title="ubuntu 20.04(focal) 配置如下"></a>ubuntu 20.04(focal) 配置如下</h3><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs awk">deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal main restricted universe multiverse<br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-security main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-security main restricted universe multiverse<br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-updates main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-updates main restricted universe multiverse<br><br><span class="hljs-comment"># deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span><br><span class="hljs-comment"># deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span><br><br>deb http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-backports main restricted universe multiverse<br>deb-src http:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/ubuntu/</span> focal-backports main restricted universe multiverse<br></code></pre></td></tr></table></figure>
+
+<p>剩余的可以去阿里云官方网站去找：</p>
+<p><a target="_blank" rel="noopener" href="https://developer.aliyun.com/mirror/ubuntu">https://developer.aliyun.com/mirror/ubuntu</a></p>
 
               
             </div>
@@ -330,9 +342,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%9B%BE%E8%AE%BA/">#图论</a>
+        <a href="/tags/Ubuntu/">#Ubuntu</a>
       
-        <a href="/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/">#拓扑排序</a>
+        <a href="/tags/Linux/">#Linux</a>
       
     </div>
   
@@ -344,8 +356,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>判断图是否有环</div>
-      <div>http://www.xmcug.top/2022/05/31/判断图是否有环/</div>
+      <div>Ubuntu换源方法以及常见问题解决</div>
+      <div>http://www.xmcug.top/2022/06/02/Ubunt换源方法以及常见问题解决/</div>
     </div>
     <div class="license-meta">
       
@@ -357,7 +369,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月31日</div>
+          <div>2022年6月2日</div>
         </div>
       
       
@@ -387,18 +399,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/06/02/Ubunt%E6%8D%A2%E6%BA%90%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/" title="Ubuntu换源方法以及常见问题解决">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Ubuntu换源方法以及常见问题解决</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/05/24/java/" title="java数组">
-                        <span class="hidden-mobile">java数组</span>
+                      <a href="/2022/05/31/%E5%88%A4%E6%96%AD%E5%9B%BE%E6%98%AF%E5%90%A6%E6%9C%89%E7%8E%AF/" title="判断图是否有环">
+                        <span class="hidden-mobile">判断图是否有环</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
