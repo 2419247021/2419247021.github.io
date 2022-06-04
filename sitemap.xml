@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.xmcug.top/2022/06/04/%E6%B1%82%E7%AC%ACK%E5%B0%8F%E7%9A%84%E6%95%B0/</loc>
+    
+    <lastmod>2022-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.xmcug.top/2022/06/02/Ubunt%E6%8D%A2%E6%BA%90%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
     
     <lastmod>2022-06-02</lastmod>
@@ -76,7 +85,7 @@
 
   <url>
     <loc>http://www.xmcug.top/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,35 +93,56 @@
   
   <url>
     <loc>http://www.xmcug.top/tags/Java/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.xmcug.top/tags/%E5%9B%BE%E8%AE%BA/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.xmcug.top/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.xmcug.top/tags/Ubuntu/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.xmcug.top/tags/Linux/</loc>
-    <lastmod>2022-06-02</lastmod>
+    <lastmod>2022-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xmcug.top/tags/%E4%BA%8C%E5%88%86/</loc>
+    <lastmod>2022-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xmcug.top/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2022-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.xmcug.top/tags/%E6%A8%A1%E6%9D%BF%E9%A2%98/</loc>
+    <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
