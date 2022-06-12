@@ -7,11 +7,11 @@ http://www.xmcug.top/about/index.html
 http://www.xmcug.top/categories/index.html
 http://www.xmcug.top/tags/index.html
 http://www.xmcug.top/
+http://www.xmcug.top/tags/Ubuntu/
+http://www.xmcug.top/tags/Linux/
 http://www.xmcug.top/tags/Java/
 http://www.xmcug.top/tags/%E5%9B%BE%E8%AE%BA/
 http://www.xmcug.top/tags/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/
-http://www.xmcug.top/tags/Ubuntu/
-http://www.xmcug.top/tags/Linux/
 http://www.xmcug.top/tags/%E4%BA%8C%E5%88%86/
 http://www.xmcug.top/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/
 http://www.xmcug.top/tags/%E6%A8%A1%E6%9D%BF%E9%A2%98/
